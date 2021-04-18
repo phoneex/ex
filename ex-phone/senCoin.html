@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>senCoin</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <!-- Styles of senCoin Phoeneex page! -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #delete {
+            font-size: 2em;
+            position: absolute;
+            left: 80px;
+            top: 80px;
+            padding: 15px 20px;
+            color: #fff;
+            background-color: #D82F36;
+            border-radius: 100px;
+        }
+        #sencoin {
+            font-size: 5em;
+            position: absolute;
+            left: 300px;
+            top: 200px;
+            padding: 15px 20px;
+            color: #D82F36;
+            border-radius: 100px;
+            font-family: "Sofia";
+        }
+        #increase {
+            font-size: 3em;
+            position: absolute;
+            left: 600px;
+            top: 180px;
+            padding: 15px 20px;
+            color: #D82F36;
+            border-radius: 100px;
+            font-family: "Sofia";
+        }
+        .statistics {
+            background-color: #D82F36;
+            position: absolute;
+            width: 90%;
+            height: 20%;
+            margin: 600px 50px;
+            border-radius: 20px;
+        }
+        #Wave {
+            font-size: 3em;
+            padding: 15px 20px;
+            color: #fff;
+            border-radius: 100px;
+            font-family: "Sofia";
+        }
+        #Price {
+            width: 100%;
+            font-size: 3em;
+            color: #fff;
+            border-radius: 20px;
+            font-family: "Sofia";
+            padding: 8px 16px;
+        }
+        #senCoin {
+            width: 20%;
+            font-size: 3em;
+            color: #D82F36;
+            background-color: #fff;
+            border-radius: 20px;
+            font-family: "Sofia";
+            padding: 8px 16px;
+            position: absolute;
+            left: 700px;
+            top: 160px;
+        }
+        #news {
+            width: 85%;
+            font-size: 3em;
+            color: #D82F36;
+            background-color: #fff;
+            border-radius: 20px;
+            font-family: "Sofia";
+            padding: 8px 16px;
+            position: absolute;
+            left: 50px;
+            top: 450px;
+            direction: ltr;
+        }
+        .Get {
+            background-color: #D82F36;
+            position: absolute;
+            width: 90%;
+            height: 40%;
+            margin: 1150px 50px;
+            border-radius: 20px;
+        }
+        #GetsenCoin {
+            width: 20%;
+            font-size: 3em;
+            color: #D82F36;
+            background-color: #fff;
+            border-radius: 20px;
+            font-family: "Sofia";
+            padding: 8px 16px;
+            position: absolute;
+            left: 700px;
+            top: 250px;
+        }
+        #Price2 {
+            width: 100%;
+            font-size: 3em;
+            color: #fff;
+            border-radius: 20px;
+            font-family: "Sofia";
+            padding: 8px 16px;
+        }
+        #GetsenCoin2 {
+            width: 20%;
+            font-size: 3em;
+            color: #D82F36;
+            background-color: #fff;
+            border-radius: 20px;
+            font-family: "Sofia";
+            padding: 8px 16px;
+            position: absolute;
+            left: 700px;
+            top: 550px;
+        }
+        #code {
+            font-size: 3em;
+            color: #D82F36;
+            background-color: #fff;
+            border-radius: 50px;
+            font-family: "Sofia";
+            padding: 7px 20px;
+            position: absolute;
+            left: 600px;
+            top: 550px;
+        }
+        #txt {
+            width: 85%;
+            height: 100px;
+            position: absolute;
+            left: 50px;
+            top: 990px;
+            border: 3px solid #D82F36;
+            border-radius: 30px;
+            font-size: 3em;
+            font-family: "Sofia";
+            padding: 8px 16px;
+        }
+        #btn1 {
+            padding: 20px 30px;
+            position: absolute;
+            left: 820px;
+            top: 990px;
+            background-color: #D82F36;
+            border: 3px solid #D82F36;
+            border-radius: 30px;
+            font-size: 3em;
+            font-family: "Sofia";
+            color: #fff;
+        }
+        .chang {
+            background-color: #D82F36;
+            position: absolute;
+            width: 90%;
+            height: 10%;
+            margin: 1890px 50px;
+            border-radius: 20px;
+        }
+        #chang {
+            font-size: 3em;
+            color: #fff;
+            background-color: #D82F36;
+            border-radius: 50px;
+            font-family: "Sofia";
+            padding: 7px 20px;
+            position: absolute;
+            left: 40px;
+            top: 40px;
+        }
+        #Chang {
+            width: 20%;
+            font-size: 3em;
+            color: #D82F36;
+            background-color: #fff;
+            border-radius: 20px;
+            font-family: "Sofia";
+            padding: 8px 16px;
+            position: absolute;
+            left: 700px;
+            top: 40px;
+        }
+        .end {
+            background-color: #D82F36;
+            position: absolute;
+            width: 100%;
+            height: 5%;
+            margin: 2100px 0px;
+        }
+        #end {
+            font-size: 2em;
+            color: #fff;
+            text-align: center;
+            background-color: #D82F36;
+            border-radius: 20px;
+            margin-top: 20px;
+            font-family: "Sofia";
+        }
+    </style>
+    <script src="sencoin.js"></script>
+</head>
+<body>
+    <a href="menu.html"><p id="delete">&#10008;</p></a>
+    <p id="sencoin">50Toman</p>
+    <p id="increase">+2</p>
+
+    <div class="statistics">
+        <br/>
+        <p id="Wave">Bag senCoin</p><br/><br/>
+        <p id="Price">The current price of SinCoin</p>
+        <p id="senCoin">50T</p>
+    </div>
+
+    <marquee id="news">Get SinCoin right now</marquee>
+
+    <div class="Get">
+        <br/>
+        <p id="Wave">Get senCoin</p><br/><br/>
+        <p id="Price">Make advertising clips and share to Aparat and YouTube!</p>
+        <a href="https://t.me/phoneexinfo"><p id="GetsenCoin">20Get</p><br/><br/></a>
+        <p id="Price2">If 5000 tomans are spent in our store with your special code, you will get 20 SinCoin from us!</p>
+        <a href="https://t.me/phoneexinfo"><p id="GetsenCoin2">20Get</p></a>
+        <a href="https://t.me/phoneexinfo"><p id="code">&#9740;</p></a>
+    </div>
+
+    <input id="txt" type="text" placeholder="nickname">
+    <button id="btn1">ok</button>
+
+    <div class="chang">
+        <p id="chang">Chang Rials to sinCoin</p>
+        <a href="https://t.me/phoneexinfo"><p id="Chang">Chang</p></a>
+    </div>
+
+    <div class="end">
+        <p id="end">&#169;All rights reserved for Phoeneex on behalf of Sina Mahmoudi</p>
+    </div>
+</body>
+</html>

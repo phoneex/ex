@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>store</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <!-- Styles of senCoin Phoeneex page! -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #title {
+            font-size: 5em;
+            position: absolute;
+            left: 35%;
+            top: 5%;
+            padding: 15px 20px;
+            border-radius: 100px;
+            color: #D82F36;
+            font-family: "Sofia";
+        }
+        .sencoin {
+            width: 300px;
+            height: 300px;
+            background-color: #D82F36;
+            color: #fff;
+            position: absolute;
+            top: 500px;
+            left: 100px;
+            border-radius: 50px;
+        }
+        #news {
+            width: 85%;
+            font-size: 3em;
+            color: #D82F36;
+            background-color: #fff;
+            border-radius: 20px;
+            font-family: "Sofia";
+            padding: 8px 16px;
+            position: absolute;
+            left: 50px;
+            top: 300px;
+            direction: ltr;
+        }
+        .Special {
+            width: 800px;
+            height: 200px;
+            background-color: #D82F36;
+            color: #fff;
+            position: absolute;
+            top: 500px;
+            right: 90px;
+            left: 90px;
+            border-radius: 50px;
+        }
+        #Special {
+            font-size: 4em;
+            position: absolute;
+            left: 35%;
+            top: 20%;
+            padding: 15px 20px;
+            border-radius: 100px;
+            color: #fff;
+            font-family: "Sofia";
+        }
+        .Gender {
+            width: 800px;
+            height: 950px;
+            background-color: #D82F36;
+            color: #fff;
+            position: absolute;
+            top: 750px;
+            right: 90px;
+            left: 90px;
+            border-radius: 50px;
+        }
+        #Gender1 {
+            font-size: 3em;
+            position: absolute;
+            left: 5%;
+            top: 5%;
+            padding: 15px 20px;
+            border-radius: 100px;
+            color: #fff;
+            font-family: "Sofia";
+        }
+        #get1 {
+            width: 30%;
+            font-size: 3em;
+            color: #D82F36;
+            background-color: #fff;
+            border-radius: 20px;
+            font-family: "Sofia";
+            padding: 8px 16px;
+            position: absolute;
+            left: 600px;
+            top: 50px;
+        }
+        #Gender2 {
+            font-size: 3em;
+            position: absolute;
+            left: 5%;
+            top: 21%;
+            padding: 15px 20px;
+            border-radius: 100px;
+            color: #fff;
+            font-family: "Sofia";
+        }
+        #get2 {
+            width: 30%;
+            font-size: 3em;
+            color: #D82F36;
+            background-color: #fff;
+            border-radius: 20px;
+            font-family: "Sofia";
+            padding: 8px 16px;
+            position: absolute;
+            left: 600px;
+            top: 200px;
+        }
+        #Gender3 { 
+            font-size: 3em;
+            position: absolute;
+            left: 5%;
+            top: 38%;
+            padding: 15px 20px;
+            border-radius: 100px;
+            color: #fff;
+            font-family: "Sofia";
+        }
+        #get3 {
+            width: 30%;
+            font-size: 3em;
+            color: #D82F36;
+            background-color: #fff;
+            border-radius: 20px;
+            font-family: "Sofia";
+            padding: 8px 16px;
+            position: absolute;
+            left: 600px;
+            top: 360px;
+        }
+        #Gender4 { 
+            font-size: 3em;
+            position: absolute;
+            left: 5%;
+            top: 53%;
+            padding: 15px 20px;
+            border-radius: 100px;
+            color: #fff;
+            font-family: "Sofia";
+        }
+        #get4 {
+            width: 30%;
+            font-size: 3em;
+            color: #D82F36;
+            background-color: #fff;
+            border-radius: 20px;
+            font-family: "Sofia";
+            padding: 8px 16px;
+            position: absolute;
+            left: 600px;
+            top: 510px;
+        }
+        #Gender5 { 
+            font-size: 3em;
+            position: absolute;
+            left: 5%;
+            top: 68%;
+            padding: 15px 20px;
+            border-radius: 100px;
+            color: #fff;
+            font-family: "Sofia";
+        }
+        #get5 {
+            width: 30%;
+            font-size: 3em;
+            color: #D82F36;
+            background-color: #fff;
+            border-radius: 20px;
+            font-family: "Sofia";
+            padding: 8px 16px;
+            position: absolute;
+            left: 600px;
+            top: 660px;
+        }
+        #Gender6 { 
+            font-size: 3em;
+            position: absolute;
+            left: 5%;
+            top: 82%;
+            padding: 15px 20px;
+            border-radius: 100px;
+            color: #fff;
+            font-family: "Sofia";
+        }
+        #get6 {
+            width: 30%;
+            font-size: 3em;
+            color: #D82F36;
+            background-color: #fff;
+            border-radius: 20px;
+            font-family: "Sofia";
+            padding: 8px 16px 0px 16px;
+            position: absolute;
+            left: 600px;
+            top: 800px;
+        }
+        #news2 {
+            width: 85%;
+            font-size: 3em;
+            color: #D82F36;
+            background-color: #fff;
+            border-radius: 20px;
+            font-family: "Sofia";
+            padding: 8px 16px;
+            position: absolute;
+            left: 50px;
+            top: 1800px;
+            direction: ltr;
+        }
+        .Gender2 {
+            width: 800px;
+            height: 900px;
+            background-color: #D82F36;
+            color: #fff;
+            position: absolute;
+            top: 2000px;
+            right: 90px;
+            left: 90px;
+            border-radius: 50px;
+        }
+        #Gender7 { 
+            font-size: 3em;
+            position: absolute;
+            left: 5%;
+            top: 10%;
+            padding: 15px 20px;
+            border-radius: 100px;
+            color: #fff;
+            font-family: "Sofia";
+        }
+        #get7 {
+            width: 30%;
+            font-size: 3em;
+            color: #D82F36;
+            background-color: #fff;
+            border-radius: 20px;
+            font-family: "Sofia";
+            padding: 8px;
+            position: absolute;
+            left: 600px;
+            top: 250px;
+        }
+        #Gender8 { 
+            font-size: 3em;
+            position: absolute;
+            left: 5%;
+            top: 40%;
+            padding: 15px 20px;
+            border-radius: 100px;
+            color: #fff;
+            font-family: "Sofia";
+        }
+        #get8 {
+            width: 30%;
+            font-size: 3em;
+            color: #D82F36;
+            background-color: #fff;
+            border-radius: 20px;
+            font-family: "Sofia";
+            padding: 8px 16px 0px 16px;
+            position: absolute;
+            left: 600px;
+            top: 550px;
+        }
+        #Gender9 { 
+            font-size: 3em;
+            position: absolute;
+            left: 5%;
+            top: 70%;
+            padding: 15px 20px;
+            border-radius: 100px;
+            color: #fff;
+            font-family: "Sofia";
+        }
+        #get9 {
+            width: 30%;
+            font-size: 3em;
+            color: #D82F36;
+            background-color: #fff;
+            border-radius: 20px;
+            font-family: "Sofia";
+            padding: 8px 16px 0px 16px;
+            position: absolute;
+            left: 600px;
+            top: 780px;
+        }
+        .number {
+            width: 800px;
+            height: 200px;
+            background-color: #D82F36;
+            color: #fff;
+            position: absolute;
+            top: 2950px;
+            right: 90px;
+            left: 90px;
+            border-radius: 50px;
+        }
+        #number {
+            font-size: 3em;
+            position: absolute;
+            left: 8%;
+            top: 20%;
+            padding: 15px 20px;
+            border-radius: 100px;
+            color: #fff;
+            font-family: "Sofia";
+        }
+        #get10 {
+            width: 30%;
+            font-size: 3em;
+            color: #D82F36;
+            background-color: #fff;
+            border-radius: 20px;
+            font-family: "Sofia";
+            padding: 8px 16px 0px 16px;
+            position: absolute;
+            left: 600px;
+            top: 60px;
+        }
+        .end {
+            background-color: #D82F36;
+            position: absolute;
+            width: 100%;
+            height: 5%;
+            margin: 3200px 0px;
+        }
+        #end {
+            font-size: 2em;
+            color: #fff;
+            text-align: center;
+            background-color: #D82F36;
+            border-radius: 20px;
+            margin-top: 20px;
+            font-family: "Sofia";
+        }
+    </style>
+</head>
+<body>
+    <p id="title">phoneex!</p>
+    <marquee id="news">Visit the specials of the phoneex store!</marquee>
+
+    <div class="Special">
+        <p id="Special">Special</p>
+    </div>
+    <div class="Gender">
+        <p id="Gender1">50 Subscribe YouTube</p>
+        <a href="https://t.me/phoneexinfo"><p id="get1">3,000T</p></a>
+        <p id="Gender2">50 Like YouTube</p>
+        <a href="https://t.me/phoneexinfo"><p id="get2">2,000T</p></a>
+        <p id="Gender3">50 follower Instagram</p>
+        <a href="https://t.me/phoneexinfo"><p id="get3">1,500T</p></a>
+        <p id="Gender4">50 follower Instagram</p>
+        <a href="https://t.me/phoneexinfo"><p id="get4">1,000T</p></a>
+        <p id="Gender5">50 follower Facebook</p>
+        <a href="https://t.me/phoneexinfo"><p id="get5">2,000T</p></a>
+        <p id="Gender6">50 like Facebook</p>
+        <a href="https://t.me/phoneexinfo"><p id="get6">1,000T</p></a>
+    </div>
+    <marquee id="news2">Payment with sinCoin is also accepted!</marquee>
+    <div class="Gender2">
+        <p id="Gender7">1-day subscription for Aparat followers</p>
+        <a href="https://t.me/phoneexinfo"><p id="get7">2,000T</p></a>
+        <p id="Gender8">3-day subscription for Aparat followers</p>
+        <a href="https://t.me/phoneexinfo"><p id="get8">5,000T</p></a>
+        <p id="Gender9">7-day subscription for Aparat followers</p>
+        <a href="https://t.me/phoneexinfo"><p id="get9">12,000T</p></a>
+    </div>
+    <div class="number">
+        <p id="number">virtual number Ranj +1</p>
+        <a href="https://t.me/phoneexinfo"><p id="get10">3,000T</p></a>
+    </div>
+    <div class="end">
+        <p id="end">&#169;All rights reserved for Phoeneex on behalf of Sina Mahmoudi</p>
+    </div>
+</body>
+</html>
